@@ -1,4 +1,4 @@
-import Action from '../Action';
+import Action from './Action';
 
 const useAction =
   <Args extends any[], Callback extends (...args: Args) => any>(action: Action<Args, Callback>) =>
